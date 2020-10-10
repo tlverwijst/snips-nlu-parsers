@@ -230,15 +230,7 @@ impl<'a> TryOntologyFrom<&'a BuiltinEntityKind> for OutputKind {
 impl OntologyFrom<Language> for RustlingLanguage {
     fn ontology_from(lang: Language) -> Self {
         match lang {
-            Language::DE => RustlingLanguage::DE,
             Language::EN => RustlingLanguage::EN,
-            Language::ES => RustlingLanguage::ES,
-            Language::FR => RustlingLanguage::FR,
-            Language::IT => RustlingLanguage::IT,
-            Language::JA => RustlingLanguage::JA,
-            Language::KO => RustlingLanguage::KO,
-            Language::PT_PT => RustlingLanguage::PT,
-            Language::PT_BR => RustlingLanguage::PT,
         }
     }
 }

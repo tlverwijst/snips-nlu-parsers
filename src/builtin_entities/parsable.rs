@@ -26,15 +26,7 @@ where
 {
     fn examples(&self, language: Language) -> &'static [&'static str] {
         match language {
-            Language::DE => de_examples(self),
             Language::EN => en_examples(self),
-            Language::ES => es_examples(self),
-            Language::FR => fr_examples(self),
-            Language::JA => ja_examples(self),
-            Language::IT => it_examples(self),
-            Language::PT_PT => pt_pt_examples(self),
-            Language::PT_BR => pt_br_examples(self),
-            Language::KO => ko_examples(self),
         }
     }
 

@@ -18,7 +18,6 @@ class TestBuiltinEntities(unittest.TestCase):
 
         # Then
         self.assertIn("en", all_languages)
-        self.assertIn("fr", all_languages)
         for language in all_languages:
             self.assertIsInstance(language, str)
 
