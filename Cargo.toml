@@ -19,10 +19,10 @@ lazy_static = "1"
 regex = "1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-gazetteer-entity-parser = { git = "https://github.com/snipsco/gazetteer-entity-parser", tag = "0.8.0" }
+gazetteer-entity-parser = { git = "https://github.com/tlverwijst/gazetteer-entity-parser", tag = "0.8.0" }
 rustling-ontology = { git = "https://github.com/tlverwijst/rustling-ontology.git", branch = "lite" }
-snips-nlu-ontology = { git = "https://github.com/snipsco/snips-nlu-ontology", tag = "0.67.1" }
-snips-nlu-utils = { git = "https://github.com/snipsco/snips-nlu-utils", tag = "0.9.1" }
+snips-nlu-ontology = { git = "https://github.com/tlverwijst/snips-nlu-ontology", tag = "0.67.1" }
+snips-nlu-utils = { git = "https://github.com/tlverwijst/snips-nlu-utils", tag = "0.9.1" }
 
 [dev-dependencies]
 tempfile = "3.0"
