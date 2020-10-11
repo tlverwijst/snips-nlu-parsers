@@ -11,7 +11,7 @@ lazy_static! {
 
 lazy_static! {
     pub static ref NON_SPACE_SEPARATED_LANGUAGES: HashSet<Language> =
-        [Language::JA].into_iter().cloned().collect();
+        [Language::JA].iter().cloned().collect();
 }
 
 pub fn get_ranges_mapping(tokens_ranges: &Vec<Range<usize>>) -> HashMap<usize, usize> {
